@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    background-color: #dfc3ef;
+    font-size: x-large;
+}
+
+.calc {
+    border-radius: 5px;
+    margin: 0px auto;
+    margin-left: 25rem;
+    margin-top: 5rem;
+    color: #ffffff;    
+}
+
+.screen {
+    background-color: #001e34;
+    height: 10rem;
+    width: 15rem;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+}
+
+#value {
+    padding-left: 210px;
+    padding-top: 120px;
+}
+
+/* .first {
+    display: grid;
+} */
+
+.numbers {
+    background-color: #002b4a;
+    height: 18rem;
+    width: 15rem;
+    color: #ffffff;
+    text-align: center;
+    justify-content: center;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+
+#firstrow {
+    padding: 10px;
+    height: 2.5rem;
+    display: flex;
+    gap: 3.5rem;
+   justify-self: center;
+}
+
+.c {
+    color: #2baa3b;
+}
+
+#secondrow {
+    height: 2.5rem;
+    padding: 5px;
+    display: flex;
+    gap: 3.5rem;
+}
+
+#thirdrow {
+    padding: 5px;
+    height: 2.5rem;
+    display: flex;
+    gap: 3.5rem;
+}
+
+#fourthrow {
+    height: 2.5rem;
+    padding: 10px;
+    display: flex;
+    gap: 3.5rem;
+}
+
+#fifthrow {
+    height: 2.5rem;
+    padding: 10px;
+    display: flex;
+    gap: 3.5rem;
+
+}
+
+#equal {
+    margin-top: 2rem;
+    text-align: center;
+    color: #2baa3b;
+}
+
+#zero {
+    text-align: center;
+    width: 4.5rem;
+}
